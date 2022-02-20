@@ -1,1 +1,1 @@
-web: gunicorn sge_twitter_dashboard:app
+web: gunicorn sge_twitter_dashboard:server
