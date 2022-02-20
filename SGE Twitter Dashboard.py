@@ -7,10 +7,10 @@ import plotly.express as px
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-df = pd.read_csv('df_sentiment_SGE.csv')
-df_day = pd.read_csv('df_day_SGE.csv')
-df_hour = pd.read_csv('df_hour_SGE.csv')
-df_totalTweets = pd.read_csv('df_totalTweets_SGE.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/TobiasScherl/SGE-Twitter-Dashboard/main/df_sentiment_SGE.csv')
+df_day = pd.read_csv('https://raw.githubusercontent.com/TobiasScherl/SGE-Twitter-Dashboard/main/df_day_SGE.csv')
+df_hour = pd.read_csv('https://raw.githubusercontent.com/TobiasScherl/SGE-Twitter-Dashboard/main/df_hour_SGE.csv')
+df_totalTweets = pd.read_csv('https://raw.githubusercontent.com/TobiasScherl/SGE-Twitter-Dashboard/main/df_totalTweets_SGE.csv')
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
