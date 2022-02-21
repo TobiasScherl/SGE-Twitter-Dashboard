@@ -10,8 +10,8 @@ import preprocessor as p
  
 consumer_key = os.environ.get('TWITTER_API_KEY')
 consumer_secret = os.environ.get('TWITTER_API_KEY_SECRET')
-access_key= '1466749316203220994-KCYS1TAc9tY8HrElc0zOS0fUJ5WUgD' #os.environ.get('TWITTER_ACCESS_TOKEN')
-access_secret = '0bCzLotLLjpQWll1TDKDL7RlWO4IXkix8XGzJTLFrIFWW' #os.environ.get('TWITTER_ACCESS_TOKEN_SECRET')
+access_key= os.environ.get('TWITTER_ACCESS_TOKEN')
+access_secret = os.environ.get('TWITTER_ACCESS_TOKEN_SECRET')
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
