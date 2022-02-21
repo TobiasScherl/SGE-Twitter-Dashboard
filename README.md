@@ -19,3 +19,4 @@ The data was prepared by extracting first the day of the week, the hour and the 
 After the data was prepared the analysis was executed. At first the polarity scores for each tweet are computed. Afterwards the compound score was determined and the tweets were categorized in tweets with positive, neutral and negative sentiment depending on their compound score. After this a word cloud was created to get an impression about the words that are mentioned most frequently. Often mentioned words are "SGE", "Eintracht", "Eintracht Frankfurt", "game" and "good" besides others. The next step was to further explore the data in order to get the data ready for the deployment in a plotly dashboard and to extract the most important information.
 
 ## Deployment
+The sentiment analysis was deployed via Heroku as a plotly Dashboard.
